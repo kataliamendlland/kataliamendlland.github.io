@@ -5,5 +5,6 @@ function onLoad(){
   var path = "/media/"+rand+".png";
   var img = document.createElement('img');
   img.setAttribute('src', path);
+  img.setAttribute('height', "25vh");
   document.body.appendChild(img);
 }
