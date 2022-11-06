@@ -9,8 +9,8 @@ function onLoad(){
   var screenHeight = window.innerHeight;
   console.log(screenHeight);
   
-  var randX = Math.floor(Math.random() * (screenWidth - 1000));
-  var randY = Math.floor(Math.random() * (screenHeight - 1000));
+  var randX = Math.floor(Math.random() * (screenWidth - 100));
+  var randY = Math.floor(Math.random() * (screenHeight - 100));
   console.log(randY);
   
   var img = document.createElement('img');
