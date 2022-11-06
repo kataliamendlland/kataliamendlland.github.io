@@ -20,6 +20,7 @@ function onLoad(){
     document.body.appendChild(img);
 }
 
-function onClick(){
-
+function onClick(event){
+    console.log("mouse x: "+event.clientX);
+    console.log("mouse y: "+event.clientY);
 }
