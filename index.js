@@ -20,6 +20,6 @@ function onClick(event){
     var img = document.createElement('img');
     img.setAttribute('src', '/media/egg.png');
     img.setAttribute('height', '100vh');
-    img.setAttribute('style', 'position: absolute; top: '+event.clientY+'px; left: '+event.clientX+'px;');
+    img.setAttribute('style', 'position: absolute; top: '+(event.clientY-50)+'px; left: '+(event.clientX-50)+'px;');
     document.body.appendChild(img);
 }
