@@ -18,5 +18,8 @@ function onLoad(){
     img.setAttribute('height', '500vh');
     img.setAttribute('style', 'position: absolute; top: '+randY+'px; left: '+randX+'px;');
     document.body.appendChild(img);
-  }
+}
+
+function onClick(){
+
 }
