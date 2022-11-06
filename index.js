@@ -16,6 +16,6 @@ function onLoad(){
   var img = document.createElement('img');
   img.setAttribute('src', path);
   img.setAttribute('height', '500vh');
-  img.setAttribute('style', 'position: absolute; top: '+randY+';');
+  img.setAttribute('style', 'position: absolute; top: '+randY+'px;');
   document.body.appendChild(img);
 }
