@@ -2,8 +2,11 @@ const FRIENDS_NUM = 3;
 
 function onLoad(){
   
+  console.log('before loop');
+  
   var i = 0
   while(i < 10){
+    console.log('in loop');
     var rand = Math.floor(Math.random() * FRIENDS_NUM)+1;
     var path = "/media/"+rand+".png";
 
@@ -23,6 +26,7 @@ function onLoad(){
     document.body.appendChild(img);
     
     setTimeout(1000);
+    console.log('after timeout');
     i++;
   }
 }
