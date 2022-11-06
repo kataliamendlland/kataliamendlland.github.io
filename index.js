@@ -21,6 +21,7 @@ function onLoad(){
 }
 
 function onClick(event){
+    alert('on click');
     console.log("mouse x: "+event.clientX);
     console.log("mouse y: "+event.clientY);
 }
