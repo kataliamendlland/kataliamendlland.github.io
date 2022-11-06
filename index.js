@@ -21,7 +21,9 @@ function onLoad(){
 }
 
 function onClick(event){
-    alert('on click');
-    console.log("mouse x: "+event.clientX);
-    console.log("mouse y: "+event.clientY);
+    var img = document.createElement('img');
+    img.setAttribute('src', '/media/egg.png');
+    img.setAttribute('height', '100vh');
+    img.setAttribute('style', 'position: absolute; top: '+event.clientX+'px; left: '+event.clientY+'px;');
+    document.body.appendChild(img);
 }
