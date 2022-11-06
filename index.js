@@ -23,4 +23,9 @@ function onClick(event){
     img.setAttribute('height', '100vh');
     img.setAttribute('style', 'position: absolute; top: '+(event.clientY-20)+'px; left: '+(event.clientX-20)+'px;');
     document.body.appendChild(img);
+    
+    var h2 = document.createElement('h2');
+    h2.textContent = "oh no I have egg on me";
+    document.body.appendChild(h2);
+   
 }
