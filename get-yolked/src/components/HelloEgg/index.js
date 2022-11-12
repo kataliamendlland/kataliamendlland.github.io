@@ -1,0 +1,1 @@
+export { HelloEgg } from './HelloEgg';
