@@ -25,7 +25,7 @@ function onClick(event){
     document.body.appendChild(img);
     
     var h2 = document.createElement('h2');
-    h2.textContent = "oh no I have egg on me";
+    h2.textContent = "oh no I have egg on me!";
     document.body.appendChild(h2);
    
 }
