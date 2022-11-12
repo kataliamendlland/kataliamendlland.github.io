@@ -3,6 +3,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { HelloEgg } from './components/HelloEgg';
+import { LoadFace } from './components/LoadFace';
 
 export const App = () => {
   return (
@@ -22,10 +23,7 @@ export const App = () => {
     //     </a>
     //   </header>
     // </div>
-
-    <HelloEgg helloEgg="Egg Scramble"></HelloEgg>
-
-
+    <LoadFace/>
 
   );
 }
