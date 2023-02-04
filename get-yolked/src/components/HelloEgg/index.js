@@ -1,1 +1,0 @@
-export { HelloEgg } from './HelloEgg';
